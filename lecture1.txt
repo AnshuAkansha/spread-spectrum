@@ -1,0 +1,54 @@
+lecture 1 
+
+communication system
+
+modulate the signal: change/modify the properties of the signal
+why modulate? 
+to cover larger distances
+to reduce impact of noise
+to efficiently transmit the signal in terms of BW.
+
+source of information(message signal) -> transmitter(modulate) -> channel(wired/wireless) -> receiver(demodulate) -> user information
+
+Based on channel
+1. wired
+2. wireless (basic we learn about: channel properties)
+
+Based on signal considered
+1.Analog communication
+2.Digital communication
+
+key concerns: Power and bandwidth
+
+*we have to transmit the signal with max power(no power decay: no loss) and min bandwidth.
+
+*Concern in communication
+1. Privacy-eaves dropping
+2. Jamming- a third user try to converge between two user
+3. interference- starts transmission unknowingly on the same channel on which two users are transmitting
+terrorist generally do this
+
+
+* How to solve this concern
+use Spread Spectrum
+1. increase the signal bandwidth(to make it spread in frequency)
+2. signal power remain the same
+
+*bandwidth power product remain same so the signal look noise like so no one will know that any transmission is going on so no one can make out that any transmission is going out or not
+ 
+Spread spectrum communication
+input data -> channel encoder(to get it ready for Tx) -> modulator(data modulation+spreading of signal: using pseudo random generator) ->channel ->demodulator(despread:using acquistion and tracking circuits for timing and pseudorandom sequence generator) ->channel demodulator -> demodulated data
+
+benefits
+1. enhanced security - military applications(intruder will not be aware of ongoing transmission)
+2. avoid jamming- transmission happen low power so the jamming is not possible
+3. interference reduction- using some pseudo random code we can avoid interfernce(transmitting at same time
+4. multiple access communication- cdma multi people can use the same channel
+
+
+
+
+
+ 
+
+
