@@ -1,0 +1,2 @@
+Direct sequence spread spectrum with BPSK modulation
+
